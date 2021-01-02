@@ -1,0 +1,125 @@
+commit 02191d5a451f668c1fafc4d0946d4fc6c3cc12d4
+Author: George Paragioudakis <gpara1697@gmail.com>
+Date:   Wed Dec 9 22:34:07 2020 -0500
+
+    commented and cleaned up
+
+commit ff2aab6843aaa2fbb75e8c5b72d0a4e8eca48d7e
+Merge: 23e2443 7b453db
+Author: Abdullah Al Armouti <aalarmo1@jhu.edu>
+Date:   Wed Dec 9 21:35:59 2020 -0500
+
+    finished
+
+commit 23e2443f375012d07620b6e62115b4be8005f573
+Author: Abdullah Al Armouti <aalarmo1@jhu.edu>
+Date:   Wed Dec 9 16:05:38 2020 -0500
+
+    fixed some indexing stuff in makeMove method
+
+commit 7b453dba664c9637a60c46ac6522fdbe71f21bd9
+Author: Chad Oliver <colive21@jhu.edu>
+Date:   Wed Dec 9 13:22:51 2020 -0500
+
+    Fix MoveTo card for discard move and minor formatting
+
+commit d265653768bac2e15c65230e862550f3f7e19e92
+Merge: 90ccc0b 55c69e3
+Author: Abdullah Al Armouti <aalarmo1@jhu.edu>
+Date:   Wed Dec 9 04:23:30 2020 -0500
+
+    shuffle works
+
+commit 90ccc0bd39a50d13fc0877646133032a8845ba18
+Author: Abdullah Al Armouti <aalarmo1@jhu.edu>
+Date:   Wed Dec 9 02:19:56 2020 -0500
+
+    load game now works
+
+commit 55c69e357d93b31414bcc0c6d07d7ac6117fcd26
+Author: Chad Oliver <colive21@jhu.edu>
+Date:   Wed Dec 9 00:11:55 2020 -0500
+
+    Fix game over bug: game now stops after a win
+
+commit 8f8caba1ea6c6f30ab6fe388479f772a94402c0c
+Author: Chad Oliver <colive21@jhu.edu>
+Date:   Tue Dec 8 23:23:21 2020 -0500
+
+    Fix some formatting bugs and work on game over bug
+    
+    Add newline after each turn and display hand after discarding a card.
+    Display "GAME OVER" message after a win, still need to signal game to
+    end.
+
+commit 329092f82a3aa6f9bf5944bc3af883c261887ebd
+Author: George Paragioudakis <gpara1697@gmail.com>
+Date:   Mon Dec 7 19:55:19 2020 -0500
+
+    added first argument error check
+
+commit d49e3079a811db9d15a32cc51ce39618e2f621e5
+Author: George Paragioudakis <gpara1697@gmail.com>
+Date:   Mon Dec 7 19:32:28 2020 -0500
+
+    added invalid player and stock size errors
+
+commit b7f75392489bde4cb32592e48c62077c016d4e46
+Author: George Paragioudakis <gpara1697@gmail.com>
+Date:   Mon Dec 7 03:41:18 2020 -0500
+
+    Started writing stock size limiter in SkipBoGame.cpp
+
+commit 1a5276ebb352f5befc9896f03c7b98ad53dc745d
+Author: George Paragioudakis <gpara1697@gmail.com>
+Date:   Sun Dec 6 00:44:13 2020 -0500
+
+    fixed some UI stuff
+
+commit 9de34cf6ede2a967c6ad7881d6de44c3cbec9fa4
+Author: Abdullah Al Armouti <aalarmo1@jhu.edu>
+Date:   Sat Dec 5 11:21:59 2020 -0500
+
+    fixed valgrind, check if any more memory issues
+
+commit 8556276498bb69a32cd88160e1f6eb2a0ebf3ead
+Author: Abdullah Al Armouti <aalarmo1@jhu.edu>
+Date:   Fri Dec 4 00:09:58 2020 -0500
+
+    many valgrind mem errors to fix
+
+commit d6cedb47b718ee472a55ffe466b33e93cead7396
+Author: Abdullah Al Armouti <aalarmo1@jhu.edu>
+Date:   Tue Dec 1 08:15:28 2020 -0500
+
+    started makefile, written more on gameplay interface
+
+commit 57fe7cb59ae70cb6d93d3510520b243ba55be8bd
+Author: Abdullah Al Armouti <aalarmo1@jhu.edu>
+Date:   Sun Nov 29 16:04:28 2020 -0500
+
+    written some command line error checks, written main.cpp, started gameplay functions
+
+commit 40e0b2722a72294a05f01e3a0f97a269bed20920
+Author: Abdullah Al Armouti <aalarmo1@jhu.edu>
+Date:   Sun Nov 29 03:38:00 2020 -0500
+
+    created main, file to handle command line arg errors
+
+commit 1732e07e273801bbbadc68dbce5ca214811d875c
+Author: Abdullah Al Armouti <aalarmo1@jhu.edu>
+Date:   Fri Nov 27 07:35:08 2020 -0500
+
+    created subclasses of Pile, started writing Hand class, written some in SkipBoGame
+
+commit ad24cdc32e4c5fe633b5c4447f47721458da428f
+Author: Abdullah Al Armouti <aalarmo1@jhu.edu>
+Date:   Tue Nov 24 10:45:58 2020 -0500
+
+    skeleton code
+
+commit ae4fe356f96a8d5d9dd61ff0d334c0d008335026
+Author: Abdullah Al Armouti <aalarmo1@jhu.edu>
+Date:   Tue Nov 24 03:40:44 2020 -0500
+
+    first commit
